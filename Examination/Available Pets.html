@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       h1,h2{
+            text-align: center;
+            color:darkcyan;
+            font-size: large;
+            font-family: italic;
+        }
+       body {
+            background-color:lightblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+       header {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+        }
+      .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            padding: 10px;
+        }
+       .pet-images:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+       .pet-gallery img {
+           width: 200px;
+           height: 200px;
+           display: block;
+        }
+    </style>
+</head>
+<body>
+    <!--Header section-->
+    <header>
+        <h1>Pet Adoption Agency</h1>
+        <!--navigation section-->
+        <nav>
+            <ul>
+                <li><a href="Available pets.html">Home</a></li>
+                <li><a href="Adoption Process.html">Adoption Process</a></li>
+                <li><a href="Success stories.html">Success Stories</a></li>
+                <li><a href="Contact Form.html">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Available pets section-->
+        <section class="gallery">
+            <h2>Available Pets</h2>
+            <div class="pet-gallery">
+                <div class="pet-images">
+                    <img src="../img/pet1.jpeg" alt="Steve">
+                    <div class="overlay">
+                        <div class="text">  Steve is a purebreed who was brought in with a broken leg after having an abusive owner.He is a relatively small but protective dog.</div>
+                    </div>
+                </div>
+                <div class="pet-images">
+                    <img src="../img/pet2.jpeg" alt="Peter">
+                    <div class="text"> Peter is also a purebreed.He was found under a bridge one sunny afternoon with no tag.He is a trained helper.</div>
+                </div>
+                <div class="pet-images">
+                    <img src="../img/pet3.jpeg" alt="Paul">
+                    <div class="text"> Paul is a halfbreed.He is extremely playful but still obedient.</div>
+                </div>
+                <div class="pet-images">
+                    <img src="../img/pet4.jpeg" alt="Vick">
+                    <div class="text">Vick is a purebreed. </div>
+                <div class="pet-images">
+                    <img src="../img/pet5.jpeg" alt="New Zealand">
+                    <div class="text"> The New Zealand is a breed of rabbit, which despite the name, is American in origin. The breed originated in California, possibly from rabbits imported from New Zealand.</div>
+                </div>
+                <div class="pet-images">
+                    <img src="../img/pet6.webp" alt="Police">
+                    <div class="text"> Police is a Siamese cat who loves being pampered with love and attention.She was named police because she is an inquisitive cat.</div>
+                </div>
+                <div class="pet-images">
+                    <img src="../img/pet7.webp" alt="Bob">
+                    <div class="text">Bob is a British Shorthair cat who loves to sleep in warm cotton sweaters or blankets. </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

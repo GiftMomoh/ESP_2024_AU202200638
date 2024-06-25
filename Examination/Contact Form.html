@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            text-align: center;
+            color: #8261cc;
+            background-color:lavender;
+        }
+        h1{
+            text-align: center;
+            color:darkblue;
+            font-style:italic; 
+        }
+        button{
+            width:300px;
+            height:30px;
+            background-color:#5555cc;
+            color:#fff;
+            border-radius: 9px;
+            padding:10px 20px;
+        }
+        footer{
+            text-align: center;
+            font-style: italic;
+        }
+        nav{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pet Adoption Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="Available Pets.html">Home</a></li>
+                <li><a href="Adoption Process.html">Adoption Process</a></li>
+                <li><a href="Success stories.html">Success Stories</a></li>
+                <li><a href="Contact Form.html">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--This is the Contact form section-->
+        <section>
+            <h2>Contact Form</h2>
+            <form>
+                <p>Full Name <br><input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"></p>
+                <p>E-mail <br><input type="email" placeholder="example@example.com"></p>
+                <p>Phone Number<br><input type="phone number"></p>
+                <p>Address<br><input type="address"></p>
+                <p>City<br><input type="city"></p>
+                <p>Zipcode<br><input type="zipcode"></p>
+                <p> <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea></p>
+                
+                <p2 class="swing">
+                    <button type="submit" >Submit</button>
+                </p2>
+        </section>
+    </main>
+    <footer>
+        <p>Thank you for visiting our website.</p>
+    </footer>
+</body>
+</html>
